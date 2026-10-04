@@ -17,7 +17,7 @@ const StarFilled = ({ size = 10 }: { size?: number }) => (
 const AirbnbLogo = () => (
   // eslint-disable-next-line @next/next/no-img-element
   <img
-    src="/airbnb-logo.webp"
+    src="/playpower-take-home-assignment/airbnb-logo.webp"
     alt="Airbnb"
     className="h-[32px] w-auto flex-shrink-0"
     style={{ objectFit: 'contain' }}
