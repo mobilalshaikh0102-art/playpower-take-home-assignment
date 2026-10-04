@@ -346,7 +346,7 @@ function BookingCard({ onReviewsClick }: { onReviewsClick: () => void }) {
 function PhotoTour({ onClose, onPhotoClick }: { onClose: () => void; onPhotoClick: (i: number) => void; }) {
   const rooms = [...new Set(PHOTOS.map(p => p.room))];
   const [activeRoom, setActiveRoom] = useState(rooms[0]);
-  const roomRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const roomRefs = useRef<Record<string, HTMLElement | null>>({});
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
